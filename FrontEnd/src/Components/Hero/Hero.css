@@ -1,0 +1,39 @@
+.Hero_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background: #02addc;
+  flex-direction: column;
+}
+
+.Hero_Container h2 {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  text-shadow: 0 0 7px #000;
+  user-select: none;
+}
+
+.Hero_Container h3 {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 4px #000;
+  user-select: none;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.Hero_Container h4 {
+  color: white;
+  text-shadow: 0 0 2px #000;
+  user-select: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.Hero_Container span {
+  color: #da1889;
+}
